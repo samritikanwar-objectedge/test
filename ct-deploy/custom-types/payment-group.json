@@ -1,0 +1,259 @@
+{
+  "description": {
+    "en": "Extension fields for ATG paymentGroup on CT Payment"
+  },
+  "fieldDefinitions": [
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Type"
+      },
+      "name": "type",
+      "required": false,
+      "type": {
+        "name": "Enum",
+        "values": [
+          {
+            "key": "paymentGroup",
+            "label": "paymentGroup"
+          },
+          {
+            "key": "creditCard",
+            "label": "creditCard"
+          },
+          {
+            "key": "giftCertificate",
+            "label": "giftCertificate"
+          },
+          {
+            "key": "storeCredit",
+            "label": "storeCredit"
+          },
+          {
+            "key": "inStorePayment",
+            "label": "inStorePayment"
+          },
+          {
+            "key": "cash",
+            "label": "cash"
+          },
+          {
+            "key": "tokenizedCreditCard",
+            "label": "tokenizedCreditCard"
+          },
+          {
+            "key": "invoiceRequest",
+            "label": "invoiceRequest"
+          },
+          {
+            "key": "storePayment",
+            "label": "storePayment"
+          },
+          {
+            "key": "billToAccount",
+            "label": "billToAccount"
+          },
+          {
+            "key": "payPal",
+            "label": "payPal"
+          }
+        ]
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Payment Group Class Type"
+      },
+      "name": "payment-group-class-type",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Payment Method"
+      },
+      "name": "payment-method",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Amount"
+      },
+      "name": "amount",
+      "required": false,
+      "type": {
+        "name": "Number"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Amount Authorized"
+      },
+      "name": "amount-authorized",
+      "required": false,
+      "type": {
+        "name": "Number"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Amount Debited"
+      },
+      "name": "amount-debited",
+      "required": false,
+      "type": {
+        "name": "Number"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Amount Credited"
+      },
+      "name": "amount-credited",
+      "required": false,
+      "type": {
+        "name": "Number"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Currency Code"
+      },
+      "name": "currency-code",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "State"
+      },
+      "name": "state",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "State Detail"
+      },
+      "name": "state-detail",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Submitted Date"
+      },
+      "name": "submitted-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Order"
+      },
+      "name": "order",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Requisition Number"
+      },
+      "name": "requisition-number",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Special Instructions"
+      },
+      "name": "special-instructions",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Authorization Status"
+      },
+      "name": "authorization-status",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Debit Status"
+      },
+      "name": "debit-status",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Credit Status"
+      },
+      "name": "credit-status",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    }
+  ],
+  "key": "payment-group",
+  "name": {
+    "en": "Payment Group Extension Fields"
+  },
+  "resourceTypeIds": [
+    "payment"
+  ]
+}

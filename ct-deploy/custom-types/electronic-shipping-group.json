@@ -1,0 +1,25 @@
+{
+  "description": {
+    "en": "Extension fields for ATG electronicShippingGroup on CT Shipping"
+  },
+  "fieldDefinitions": [
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Email Address"
+      },
+      "name": "email-address",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    }
+  ],
+  "key": "electronic-shipping-group",
+  "name": {
+    "en": "Electronic Shipping Group Extension Fields"
+  },
+  "resourceTypeIds": [
+    "shipping"
+  ]
+}

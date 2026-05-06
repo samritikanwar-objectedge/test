@@ -1,0 +1,678 @@
+{
+  "description": {
+    "en": "Extension fields for ATG category on CT Category"
+  },
+  "fieldDefinitions": [
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Parent Catalog"
+      },
+      "name": "parent-catalog",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Catalog"
+      },
+      "name": "catalog",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Dynamic Related Categories"
+      },
+      "name": "dynamic-related-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Dynamic Child Products"
+      },
+      "name": "dynamic-child-products",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Dynamic Child Categories"
+      },
+      "name": "dynamic-child-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Related Categories"
+      },
+      "name": "related-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Child Products"
+      },
+      "name": "child-products",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Child Categories"
+      },
+      "name": "child-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Catalogs"
+      },
+      "name": "catalogs",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Sub Catalogs Child Categories"
+      },
+      "name": "sub-catalogs-child-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Online Site Ids"
+      },
+      "name": "online-site-ids",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Site Group Ids"
+      },
+      "name": "site-group-ids",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Touchpoint Ids"
+      },
+      "name": "touchpoint-ids",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Parent Category For Catalog"
+      },
+      "name": "parent-category-for-catalog",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Parent Category"
+      },
+      "name": "parent-category",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Generated Ancestors Map"
+      },
+      "name": "generated-ancestors-map",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Generated Ancestors"
+      },
+      "name": "generated-ancestors",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Is Ancestors Generated Map"
+      },
+      "name": "is-ancestors-generated-map",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Is Ancestors Generated"
+      },
+      "name": "is-ancestors-generated",
+      "required": false,
+      "type": {
+        "name": "Boolean"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Id"
+      },
+      "name": "id",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Start Date"
+      },
+      "name": "start-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "End Date"
+      },
+      "name": "end-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Display Name"
+      },
+      "name": "display-name",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Description"
+      },
+      "name": "description",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Long Description"
+      },
+      "name": "long-description",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Type"
+      },
+      "name": "type",
+      "required": false,
+      "type": {
+        "name": "Enum"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Default Parent Category"
+      },
+      "name": "default-parent-category",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Item Acl"
+      },
+      "name": "item-acl",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Sub Catalogs"
+      },
+      "name": "sub-catalogs",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Keywords"
+      },
+      "name": "keywords",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Template"
+      },
+      "name": "template",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Thumbnail Image"
+      },
+      "name": "thumbnail-image",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Small Image"
+      },
+      "name": "small-image",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Large Image"
+      },
+      "name": "large-image",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Auxiliary Media"
+      },
+      "name": "auxiliary-media",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Fixed Related Categories"
+      },
+      "name": "fixed-related-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Fixed Child Products"
+      },
+      "name": "fixed-child-products",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Fixed Child Categories"
+      },
+      "name": "fixed-child-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Fixed Parent Categories"
+      },
+      "name": "fixed-parent-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Related Category Group"
+      },
+      "name": "related-category-group",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Child Product Group"
+      },
+      "name": "child-product-group",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Child Category Group"
+      },
+      "name": "child-category-group",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Category Infos"
+      },
+      "name": "category-infos",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Computed Catalogs"
+      },
+      "name": "computed-catalogs",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Parent Catalogs"
+      },
+      "name": "parent-catalogs",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Ancestor Categories"
+      },
+      "name": "ancestor-categories",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Ancestor Category Ids"
+      },
+      "name": "ancestor-category-ids",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Site Ids"
+      },
+      "name": "site-ids",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Parent Categories For Catalog"
+      },
+      "name": "parent-categories-for-catalog",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Sort Order"
+      },
+      "name": "sort-order",
+      "required": false,
+      "type": {
+        "name": "Number"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Global Id"
+      },
+      "name": "global-id",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Seo Url"
+      },
+      "name": "seo-url",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "App Rec Category Code"
+      },
+      "name": "app-rec-category-code",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    }
+  ],
+  "key": "category",
+  "name": {
+    "en": "Category Extension Fields"
+  },
+  "resourceTypeIds": [
+    "category"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "description": {
+    "en": "Extension fields for ATG tokenizedCreditCard on CT Payment"
+  },
+  "fieldDefinitions": [
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Token"
+      },
+      "name": "token",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    }
+  ],
+  "key": "tokenized-credit-card",
+  "name": {
+    "en": "Tokenized Credit Card Extension Fields"
+  },
+  "resourceTypeIds": [
+    "payment"
+  ]
+}

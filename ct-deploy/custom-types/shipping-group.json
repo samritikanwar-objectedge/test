@@ -1,0 +1,193 @@
+{
+  "description": {
+    "en": "Extension fields for ATG shippingGroup on CT Shipping"
+  },
+  "fieldDefinitions": [
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Type"
+      },
+      "name": "type",
+      "required": false,
+      "type": {
+        "name": "Enum",
+        "values": [
+          {
+            "key": "shippingGroup",
+            "label": "shippingGroup"
+          },
+          {
+            "key": "hardgoodShippingGroup",
+            "label": "hardgoodShippingGroup"
+          },
+          {
+            "key": "electronicShippingGroup",
+            "label": "electronicShippingGroup"
+          },
+          {
+            "key": "inStorePickupShippingGroup",
+            "label": "inStorePickupShippingGroup"
+          },
+          {
+            "key": "b2bHardgoodShippingGroup",
+            "label": "b2bHardgoodShippingGroup"
+          },
+          {
+            "key": "b2bElectronicShippingGroup",
+            "label": "b2bElectronicShippingGroup"
+          },
+          {
+            "key": "csShippingGroup",
+            "label": "csShippingGroup"
+          }
+        ]
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Shipping Group Class Type"
+      },
+      "name": "shipping-group-class-type",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Shipping Method"
+      },
+      "name": "shipping-method",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Description"
+      },
+      "name": "description",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Ship On Date"
+      },
+      "name": "ship-on-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Actual Ship Date"
+      },
+      "name": "actual-ship-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "State"
+      },
+      "name": "state",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "State Detail"
+      },
+      "name": "state-detail",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Submitted Date"
+      },
+      "name": "submitted-date",
+      "required": false,
+      "type": {
+        "name": "DateTime"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Price Info"
+      },
+      "name": "price-info",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Order"
+      },
+      "name": "order",
+      "required": false,
+      "type": {
+        "name": "String"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Handling Instructions"
+      },
+      "name": "handling-instructions",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    },
+    {
+      "inputHint": "SingleLine",
+      "label": {
+        "en": "Special Instructions"
+      },
+      "name": "special-instructions",
+      "required": false,
+      "type": {
+        "elementType": {
+          "name": "String"
+        },
+        "name": "Set"
+      }
+    }
+  ],
+  "key": "shipping-group",
+  "name": {
+    "en": "Shipping Group Extension Fields"
+  },
+  "resourceTypeIds": [
+    "shipping"
+  ]
+}
