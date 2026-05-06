@@ -1,0 +1,244 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Omnia Equipment Id"
+      },
+      "name": "omnia-equipment-id",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Omnia Component Code"
+      },
+      "name": "omnia-component-code",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Included Qty"
+      },
+      "name": "included-qty",
+      "type": {
+        "name": "number"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Max Qty"
+      },
+      "name": "max-qty",
+      "type": {
+        "name": "number"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Min Qty"
+      },
+      "name": "min-qty",
+      "type": {
+        "name": "number"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Recurring Monthly Charge"
+      },
+      "name": "recurring-monthly-charge",
+      "type": {
+        "name": "boolean"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Charge Immediate"
+      },
+      "name": "charge-immediate",
+      "type": {
+        "name": "boolean"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Account Type"
+      },
+      "name": "account-type",
+      "type": {
+        "name": "enum",
+        "values": [
+          {
+            "key": "MDU_HS_RESIDENT_AP",
+            "label": "MDU_HS_RESIDENT_AP"
+          },
+          {
+            "key": "HOME_SERVICES",
+            "label": "HOME_SERVICES"
+          },
+          {
+            "key": "SB_HOME",
+            "label": "SB_HOME"
+          },
+          {
+            "key": "MDU_HS_RESIDENT_PP",
+            "label": "MDU_HS_RESIDENT_PP"
+          },
+          {
+            "key": "HOME_SERVICES_VP",
+            "label": "HOME_SERVICES_VP"
+          },
+          {
+            "key": "BUS_HOME",
+            "label": "BUS_HOME"
+          }
+        ]
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Hardware Name"
+      },
+      "name": "hardware-name",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Sell Feature On"
+      },
+      "name": "sell-feature-on",
+      "type": {
+        "name": "enum",
+        "values": [
+          {
+            "key": "MMA_ESTORE",
+            "label": "MMA_ESTORE"
+          },
+          {
+            "key": "MMA_ONLY",
+            "label": "MMA_ONLY"
+          },
+          {
+            "key": "ESTORE_ONLY",
+            "label": "ESTORE_ONLY"
+          },
+          {
+            "key": "NONE",
+            "label": "NONE"
+          }
+        ]
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Hide From Customer"
+      },
+      "name": "hide-from-customer",
+      "type": {
+        "name": "enum",
+        "values": [
+          {
+            "key": "MMA_ESTORE",
+            "label": "MMA_ESTORE"
+          },
+          {
+            "key": "MMA_ONLY",
+            "label": "MMA_ONLY"
+          },
+          {
+            "key": "ESTORE_ONLY",
+            "label": "ESTORE_ONLY"
+          },
+          {
+            "key": "NONE",
+            "label": "NONE"
+          }
+        ]
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Included Fee"
+      },
+      "name": "included-fee",
+      "type": {
+        "elementType": {
+          "name": "text"
+        },
+        "name": "set"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Sub Group"
+      },
+      "name": "sub-group",
+      "type": {
+        "elementType": {
+          "name": "text"
+        },
+        "name": "set"
+      }
+    }
+  ],
+  "description": "Product type for ATG fiberEquipment",
+  "key": "fiber-equipment",
+  "name": "Fiber Equipment"
+}

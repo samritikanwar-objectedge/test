@@ -1,0 +1,20 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Fee Identifier"
+      },
+      "name": "fee-identifier",
+      "type": {
+        "name": "text"
+      }
+    }
+  ],
+  "description": "Product type for ATG fiberFee",
+  "key": "fiber-fee",
+  "name": "Fiber Fee"
+}

@@ -1,0 +1,36 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Configurable Properties"
+      },
+      "name": "configurable-properties",
+      "type": {
+        "elementType": {
+          "name": "text"
+        },
+        "name": "set"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Configurator Id"
+      },
+      "name": "configurator-id",
+      "type": {
+        "name": "text"
+      }
+    }
+  ],
+  "description": "Product type for ATG configurableSku",
+  "key": "configurable-sku",
+  "name": "Configurable Sku"
+}

@@ -1,0 +1,151 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Data"
+      },
+      "name": "data",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Url"
+      },
+      "name": "url",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Id"
+      },
+      "name": "id",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Start Date"
+      },
+      "name": "start-date",
+      "type": {
+        "name": "datetime"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "End Date"
+      },
+      "name": "end-date",
+      "type": {
+        "name": "datetime"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Name"
+      },
+      "name": "name",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Description"
+      },
+      "name": "description",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Path"
+      },
+      "name": "path",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Parent Folder"
+      },
+      "name": "parent-folder",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Type"
+      },
+      "name": "type",
+      "type": {
+        "name": "enum",
+        "values": [
+          {
+            "key": "external",
+            "label": "external"
+          },
+          {
+            "key": "internal-binary",
+            "label": "internal-binary"
+          },
+          {
+            "key": "internal-text",
+            "label": "internal-text"
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Product type for ATG media",
+  "key": "media",
+  "name": "Media"
+}

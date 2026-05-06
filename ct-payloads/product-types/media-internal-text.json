@@ -1,0 +1,59 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Mime Type"
+      },
+      "name": "mime-type",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Url"
+      },
+      "name": "url",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Length"
+      },
+      "name": "length",
+      "type": {
+        "name": "number"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Data"
+      },
+      "name": "data",
+      "type": {
+        "name": "text"
+      }
+    }
+  ],
+  "description": "Product type for ATG media-internal-text",
+  "key": "media-internal-text",
+  "name": "Media Internal Text"
+}

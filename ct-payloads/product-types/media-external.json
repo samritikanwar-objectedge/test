@@ -1,0 +1,46 @@
+{
+  "attributes": [
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Data"
+      },
+      "name": "data",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Mime Type"
+      },
+      "name": "mime-type",
+      "type": {
+        "name": "text"
+      }
+    },
+    {
+      "attributeConstraint": "None",
+      "inputHint": "SingleLine",
+      "isRequired": false,
+      "isSearchable": true,
+      "label": {
+        "en": "Url"
+      },
+      "name": "url",
+      "type": {
+        "name": "text"
+      }
+    }
+  ],
+  "description": "Product type for ATG media-external",
+  "key": "media-external",
+  "name": "Media External"
+}
